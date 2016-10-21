@@ -11,7 +11,7 @@
 $name = "Jack Pincombe";
 $email = "jackpincombe@hotmail.co.uk";
 
-displaying the users information
+//displaying the users information
 echo $name ,'s ' , 'email is ' , $email;
 
 
@@ -21,11 +21,17 @@ $title = '"The Hitchhicker\'s guide to the galaxy"';
 $author = 'Douglas Adams';
 $answer = 420;
 $newlines = "\r\n\r\n";
-
+$brain_size = "The size of a planet";
 $fullName = $firstName . ' ' . $lastName;
 $book = "$title by $author";
 
 
+$heredoc = <<< EOC
+
+In $title by $author, $fullName the "paranoid android" complains that he's asked to do 
+menial tasks, even though he's got "a brain $brain_size."
+
+EOC;
 
 
 
@@ -47,6 +53,8 @@ series originally written by <mark><?php echo $author; ?></mark>, and
 subsenquently turned into a book, TB series, movie and numerous stage shows. It
 Reveals that the Answer to the Ultimate Question of Life, The universe, and
 Everything is <mark><?php echo $answer; ?></mark></p>
+
+<p><mark><?php echo $heredoc; ?></mark></p>
 
 </body>
 
