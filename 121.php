@@ -26,12 +26,7 @@ $fullName = $firstName . ' ' . $lastName;
 $book = "$title by $author";
 
 
-$heredoc = <<< EOC
 
-In $title by $author, $fullName the "paranoid android" complains that he's asked to do 
-menial tasks, even though he's got "a brain $brain_size."
-
-EOC;
 
 
 
