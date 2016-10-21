@@ -6,15 +6,14 @@
  * Time: 12:53
  */
 
-/**
+
 //Users information
 $name = "Jack Pincombe";
 $email = "jackpincombe@hotmail.co.uk";
 
-//displaying the users information
+displaying the users information
 echo $name ,'s ' , 'email is ' , $email;
- *
- * */
+
 
 $firstName = 'Jack';
 $lastName = 'Pincombe';
