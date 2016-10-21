@@ -27,9 +27,8 @@ $fullName = $firstName . ' ' . $lastName;
 $book = "$title by $author";
 
 
-echo $fullName . '<br>';
-echo $book;
- /**
+
+
 
 ?>
 
@@ -54,4 +53,4 @@ Everything is <mark><?php echo $answer; ?></mark></p>
 
 </html>
 
-  **/
+
