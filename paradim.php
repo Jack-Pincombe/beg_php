@@ -8,7 +8,7 @@
  * and of course the next day after looking at some php syntax I was able to
  * achieve this
  *
- * FFS
+ * 
  */
 
 $string = "jack";
