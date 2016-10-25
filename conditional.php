@@ -11,15 +11,15 @@ $day = "Monday";
 
 if ($name == "Jack" && $day == "Monday"):
 
-    echo "woo";
+    echo "Insert Sad face";
 
-elseif ($name == "dfndsf" || $day =="tuesday") :
+elseif ($name == "Dosent matter" || $day =="Friday") :
 
-    echo "oops";
+    echo "woohooo";
 
 else:
 
-    echo "dfsf";
+    echo "I dunno what day it is but its not friday so it doesnt matter ";
 
 endif;
 
