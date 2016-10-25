@@ -33,12 +33,23 @@ $characters = [
 <p><? echo $book['title'] . ' is a ' .$book['description']?> Written by <? echo $book['author']?></p>
 <h2>Main Characters</h2>
 
+    <?php
+        foreach ($characters as $i) {
+
+            echo "<ul>$i</ul>";
+
+    }
+
+
+
+    ?>
+<!--
     <ul><? echo $characters[0] ?></ul>
     <ul><? echo $characters[1] ?></ul>
     <ul><? echo $characters[2] ?></ul>
     <ul><? echo $characters[3] ?></ul>
     <ul><? echo $characters[4] ?></ul>
-
+-->
 
 </body>
 </html>
