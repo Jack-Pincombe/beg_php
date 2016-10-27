@@ -10,5 +10,4 @@ $unit = 0;
 
 $wholesale = $unit ?? 25;
 
-
 echo $wholesale;
