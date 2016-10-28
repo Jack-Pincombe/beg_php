@@ -14,12 +14,15 @@ echo $x + $y . '<br>';
 echo $x - $y . '<br>';
 echo $x * $y . '<br>';
 echo $x / $y . '<br>';
+echo $x ** $y . '<br>';
 
+//converting fahrenheit to celsius
 $degf = 98.6;
 $degc = ($degf - 32) / 9 * 5;
 
 echo $degc . ' degc' . "<br>";
 
+// to check if number even
 if ($x % 2 ==0 ){
 
     echo 'This is a even number';
