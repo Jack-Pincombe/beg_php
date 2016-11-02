@@ -36,17 +36,7 @@
         //res col at end of each row
             $col = 1;
             endfor;
-
-
-
-
-
-
-
-
-
-
-
+        
         ?>
 
 </table>
