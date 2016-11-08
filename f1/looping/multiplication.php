@@ -14,29 +14,27 @@
 
         <?php
         //create first row of table headers
-        echo "<tr>";
-        echo "<th>&nbsp; </th>";
-        for ($col = 1; $col <= 12; $col++):
+        echo '<tr>';
+        echo '<th>&nbsp;</th>';
+        for ($col = 1; $col <= 12; $col++ ):
+
             echo "<th>$col</th>";
+
         endfor;
-        echo '</tr>';
-
-
-        //create remaining rows
-        for ($row = 1, $col = 1; $row <= 12; $row++):
-            echo "<tr>";
-            // first cell is a table header
-            if ($col == 1 ) {
+        echo "</tr>";
+        // create remaining rows
+        for ( $row = 1, $col = 1; $row <= 12; $row++ ):
+            echo '<tr>';
+            if ($col == 1){
                 echo "<th>$row</th>";
-        }
-            while ($col <= 12):
-                echo "<td>" . $row * $col++ . "</td>";
+            }
+            while ($col <= 12) :
+                echo '<td>' . $row * $col++ . '</td>';
             endwhile;
             echo '</tr>';
-        //res col at end of each row
+
             $col = 1;
-            endfor;
-        
+        endfor;
         ?>
 
 </table>
