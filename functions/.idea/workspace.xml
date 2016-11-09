@@ -23,24 +23,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="obj.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../obj.php">
+      <file leaf-file-name="parent.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../07_02/parent.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+              <folding>
+                <marker date="1478713060000" expanded="true" signature="74:327" ph="..." />
+                <marker date="1478713060000" expanded="true" signature="81:224" ph="..." />
+                <marker date="1478713060000" expanded="true" signature="231:327" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="copyrightDate.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../copyrightDate.php">
+      <file leaf-file-name="para.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../07_02/includes/para.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-              <folding>
-                <element signature="e#6#95#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="123" selection-start-line="0" selection-start-column="123" selection-end-line="0" selection-end-column="123" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,6 +63,8 @@
         <option value="$PROJECT_DIR$/../spaceship.php" />
         <option value="$PROJECT_DIR$/../obj.php" />
         <option value="$PROJECT_DIR$/../copyrightDate.php" />
+        <option value="$PROJECT_DIR$/../07_02/includes/para.html" />
+        <option value="$PROJECT_DIR$/../07_02/parent.php" />
       </list>
     </option>
   </component>
@@ -118,7 +122,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../1functions.php" />
@@ -192,12 +196,12 @@
       <option name="presentableId" value="Default" />
       <updated>1478125288722</updated>
       <workItem from="1478125289812" duration="1322000" />
-      <workItem from="1478630981901" duration="5987000" />
+      <workItem from="1478630981901" duration="7539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7309000" />
+    <option name="totallyTimeSpent" value="8861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="660" height="900" extended-state="6" />
@@ -339,10 +343,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../obj.php">
+    <entry file="file://$PROJECT_DIR$/../para.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Ex_Files_Intro_PHP-2/Exercise Files/introducingphp/ch07/07_02/includes/para.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="44" selection-start-line="0" selection-start-column="44" selection-end-line="0" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -353,6 +365,42 @@
           <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding>
             <element signature="e#6#95#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../obj.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../07_02/includes/copyright.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../07_02/includes/para.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="123" selection-start-line="0" selection-start-column="123" selection-end-line="0" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../07_02/parent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding>
+            <marker date="1478713060000" expanded="true" signature="74:327" ph="..." />
+            <marker date="1478713060000" expanded="true" signature="81:224" ph="..." />
+            <marker date="1478713060000" expanded="true" signature="231:327" ph="..." />
           </folding>
         </state>
       </provider>
