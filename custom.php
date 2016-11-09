@@ -23,7 +23,17 @@ function lyn_convertTomins($seconds)
     //if sec is less than one minute
     $sec = ($sec < 10) ? '0' . $sec : $sec;
 
-    return "$min:$sec";
+    return "$min:$sec" . '</br>';
 
 }
 
+$number = 2;
+
+function doubleIt($number) {
+
+    return $number *= 2;
+
+}
+
+
+echo "When $number is doubled it becomes " . doubleIt($number);
