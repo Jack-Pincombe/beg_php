@@ -5,21 +5,25 @@
  * Date: 08/11/2016
  * Time: 18:55
  */
-function lyn_convertToMinutes($seconds){
-    // getting remainder seconds
+
+echo lyn_convertTomins(45);
+
+
+function lyn_convertTomins($seconds)
+{
+    // collecting the remainder seconds
     $sec = $seconds % 60;
     if (function_exists('intdiv')) {
         $min = intdiv($seconds, 60);
-
     } else {
-
-        $min = ($seconds - $sec) / 60;
+        $min = ($seconds - $sec) - $sec / 60;
     }
-    // to remove the - symbol in seconds
+    // making sec an absolute number
     $sec = abs($sec);
-    $sec = ( $sec < 10) ? '0'.$sec :$sec;
+    //if sec is less than one minute
+    $sec = ($sec < 10) ? '0' . $sec : $sec;
+
     return "$min:$sec";
 
 }
 
-echo lyn_convertToMinutes(-547);
