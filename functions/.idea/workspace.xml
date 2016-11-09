@@ -23,42 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../1functions.php">
+      <file leaf-file-name="obj.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../obj.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1478125929000" expanded="true" signature="342:491" ph="..." />
-                <marker date="1478125929000" expanded="true" signature="361:400" ph="..." />
-                <marker date="1478125929000" expanded="true" signature="467:491" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../custom.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+            <state relative-caret-position="345">
+              <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
               <folding>
                 <element signature="e#6#94#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spaceship.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../spaceship.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-              <folding>
-                <marker date="1478697637000" expanded="true" signature="521:750" ph="..." />
-                <marker date="1478697637000" expanded="true" signature="528:663" ph="..." />
-                <marker date="1478697637000" expanded="true" signature="670:750" ph="..." />
-                <marker date="1478697637000" expanded="true" signature="702:750" ph="..." />
               </folding>
             </state>
           </provider>
@@ -78,6 +49,7 @@
         <option value="$PROJECT_DIR$/../function_types.php" />
         <option value="$USER_HOME$/Downloads/Ex_Files_Intro_PHP-2/Exercise Files/introducingphp/ch06/06_05/spaceship.php" />
         <option value="$PROJECT_DIR$/../spaceship.php" />
+        <option value="$PROJECT_DIR$/../obj.php" />
       </list>
     </option>
   </component>
@@ -209,12 +181,12 @@
       <option name="presentableId" value="Default" />
       <updated>1478125288722</updated>
       <workItem from="1478125289812" duration="1322000" />
-      <workItem from="1478630981901" duration="3785000" />
+      <workItem from="1478630981901" duration="4678000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5107000" />
+    <option name="totallyTimeSpent" value="6000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="660" height="900" extended-state="6" />
@@ -295,18 +267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../1functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1478125929000" expanded="true" signature="342:491" ph="..." />
-            <marker date="1478125929000" expanded="true" signature="361:400" ph="..." />
-            <marker date="1478125929000" expanded="true" signature="467:491" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../function_types.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -331,6 +291,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../spaceship.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding>
+            <marker date="1478697637000" expanded="true" signature="521:750" ph="..." />
+            <marker date="1478697637000" expanded="true" signature="528:663" ph="..." />
+            <marker date="1478697637000" expanded="true" signature="670:750" ph="..." />
+            <marker date="1478697637000" expanded="true" signature="702:750" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../custom.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -341,15 +314,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spaceship.php">
+    <entry file="file://$PROJECT_DIR$/../1functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1478697637000" expanded="true" signature="521:750" ph="..." />
-            <marker date="1478697637000" expanded="true" signature="528:663" ph="..." />
-            <marker date="1478697637000" expanded="true" signature="670:750" ph="..." />
-            <marker date="1478697637000" expanded="true" signature="702:750" ph="..." />
+            <marker date="1478125929000" expanded="true" signature="342:491" ph="..." />
+            <marker date="1478125929000" expanded="true" signature="361:400" ph="..." />
+            <marker date="1478125929000" expanded="true" signature="467:491" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../obj.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="50" selection-start-line="23" selection-start-column="50" selection-end-line="23" selection-end-column="50" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
