@@ -36,7 +36,22 @@
     <p>
         <input type="submit" name="send" id="send" value="Send Comments">
     </p>
+<pre>
+    <?php
+    if ($_GET)
+    {
+        echo 'content of the $_Get array: <br>';
+        print_r($_GET);
+    }
+    elseif ($_POST)
+    {
+        echo 'The content of the post array: <br>';
+        print print_r($_POST);
 
+    }
+
+    ?>
+</pre>
 
 </form>
 </body>
