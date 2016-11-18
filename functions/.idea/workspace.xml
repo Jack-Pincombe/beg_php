@@ -23,22 +23,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="parent.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../07_02/parent.php">
+      <file leaf-file-name="contact.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="para.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../07_02/includes/para.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="123" selection-start-line="0" selection-start-column="123" selection-end-line="0" selection-end-column="123" />
-              <folding />
+            <state relative-caret-position="285">
+              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+              <folding>
+                <element signature="e#6#94#0#PHP" expanded="true" />
+                <marker date="1479502440000" expanded="true" signature="281:301" ph="..." />
+                <marker date="1479502440000" expanded="true" signature="388:408" ph="..." />
+                <marker date="1479502440000" expanded="true" signature="501:521" ph="..." />
+                <marker date="1479502440000" expanded="true" signature="639:660" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,6 +57,8 @@
         <option value="$PROJECT_DIR$/../copyrightDate.php" />
         <option value="$PROJECT_DIR$/../07_02/includes/para.html" />
         <option value="$PROJECT_DIR$/../07_02/parent.php" />
+        <option value="$PROJECT_DIR$/../07_05/contact.php" />
+        <option value="$PROJECT_DIR$/../contact.php" />
       </list>
     </option>
   </component>
@@ -104,8 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -116,13 +112,15 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1functions.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../contact.php" />
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
@@ -196,18 +194,18 @@
       <workItem from="1478630981901" duration="7786000" />
       <workItem from="1478886672594" duration="305000" />
       <workItem from="1479040013369" duration="55000" />
-      <workItem from="1479499495965" duration="163000" />
+      <workItem from="1479499495965" duration="1435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9631000" />
+    <option name="totallyTimeSpent" value="10903000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="722" y="0" width="718" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24848485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24791086" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995194" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -374,6 +372,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../07_02/parent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../07_02/includes/para.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -382,11 +388,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../07_02/parent.php">
+    <entry file="file://$PROJECT_DIR$/../07_05/artists.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../07_05/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../07_05/venue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../07_05/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding>
+            <element signature="e#6#94#0#PHP" expanded="true" />
+            <marker date="1479502440000" expanded="true" signature="281:301" ph="..." />
+            <marker date="1479502440000" expanded="true" signature="388:408" ph="..." />
+            <marker date="1479502440000" expanded="true" signature="501:521" ph="..." />
+            <marker date="1479502440000" expanded="true" signature="639:660" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
