@@ -5,7 +5,8 @@
  * Date: 18/11/2016
  * Time: 20:38
  */
-
+$errors =[];
+$missing = [];
 
 
 ?>
@@ -15,8 +16,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Get and Post</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
 </head>
+
 <body>
+<h1>Contact Us</h1>
+
 <form method="get" action="<?= $_SERVER['PHP_SELF']; ?>">
     <p>
         <label for="name">Name</label>
@@ -40,12 +45,12 @@
     <?php
     if ($_GET)
     {
-        echo 'content of the $_Get array: <br>';
+        echo 'content of the $_GET array: <br>';
         print_r($_GET);
     }
     elseif ($_POST)
     {
-        echo 'The content of the post array: <br>';
+        echo 'The content of the $_POST array: <br>';
         print print_r($_POST);
 
     }
