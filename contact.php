@@ -5,6 +5,12 @@ $missing = [];
 if (isset($_POST['send'])){
     $expected = ['name','email','comments'];
     $required = ['name','comments'];
+    $to = 'Jack Pincombe {jackpincombe@hotmail.co.uk}';
+    $subject = 'Feedback and online form';
+    $headers = [];
+    $headers[] = 'From: webmaster@example.com';
+    $headers[] = 'Content Type: text/plain; charset=utf-8';
+    $authorised = null;
     require 'process_mail.php';
 }
 ?>
@@ -19,7 +25,9 @@ if (isset($_POST['send'])){
 
 <body>
 <h1>Contact Us</h1>
-<?php if ($errors || $missing) : ?>
+<?php if ($_POST && $suspect) :?>
+<p>Sorry, your mail could not be sent</p>
+<?php elseif ($errors || $missing) : ?>
 <p class="warning">Please fix the item(s) indicated</p>
 <?php endif; ?>
 <form method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
@@ -37,8 +45,6 @@ if (isset($_POST['send'])){
             ?>
         >
     </p>
-
-
 
     <p>
         <label for="email">Email:
